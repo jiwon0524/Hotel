@@ -1,2 +1,0 @@
-노지원,aaa@naver.com,1234
-관리자,admin,admin1234
