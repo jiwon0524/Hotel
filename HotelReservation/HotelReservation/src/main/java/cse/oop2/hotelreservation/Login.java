@@ -240,7 +240,8 @@ public class Login extends javax.swing.JFrame {
             // mainFrame.setVisible(true);
             // mainFrame.pack();
             // mainFrame.setLocationRelativeTo(null);
-            
+            WelcomeFrame welcomeFrame = new WelcomeFrame();
+            welcomeFrame.setVisible(true);
             this.dispose(); // 현재(로그인) 창 닫기
         } else {
             JOptionPane.showMessageDialog(this, "Email 또는 비밀번호가 일치하지 않습니다.", "인증 실패", JOptionPane.ERROR_MESSAGE);
